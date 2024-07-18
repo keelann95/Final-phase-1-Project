@@ -1,4 +1,4 @@
-const url = "http://localhost:4000/movies";
+const url = "https://final-project-backend-phase-1.vercel.app/movies";
 
 //add shortcut functions
 function createAnElement(element) {
