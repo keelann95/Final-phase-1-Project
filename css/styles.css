@@ -100,118 +100,7 @@ width: 100%;
     transition: 1.2s;
     color: #ffffff;
 }
-header nav .userInput{
-     position: relative;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-}
-header nav .userInput input{
-    padding:4px 10px ;
-    border-radius: 15px;
-    border: none;
-    outline: none;
-    background: darkgrey;
-    margin-right:6px;
-}
 
-header nav .userInput input::placeholder{
- color: #ffffff;
-}
-header nav .userInput img{
-    width: 30px;
-    height: 3vh;
-    border-radius: 50%;    
-   }
-   header nav .userInput .search{
-    position: absolute;
-    width: 320px;
-    height: 190px;
-    /* border: 1px solid #ffffff; */
-    right: 0px;
-    top: 33px;
-    z-index: 99999;
-    overflow-x: auto;
-   }
-   header nav .userInput .search ::-webkit-scrollbar {
-width: 5px;
-background: darkgray;
-border-radius: 5px;
-display: none;
-
-   }
-
-   header nav .userInput .search::-webkit-scrollbar-thumb{
-    width: 5px;
-    background: darkgray;
-    border-radius: 5px;
-    visibility: hidden;
-    display: none;
-   }
-
-   header nav .userInput .search:hover::-webkit-scrollbar{
-    visibility: visible;
-   }
-   header nav .userInput .search::-webkit-scrollbar-thumb{
-  visibility: visible;
-   }
-
-   /* header nav .userInput .search .card{
-    position: relative;
-    width: 302px;
-  height: 50px;
-  display: inline-block;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 5px;
-  padding: 1px 0px ;
-  text-decoration: none;
-  
-   } */
-   header nav .userInput .search .card::before {
-    content: "";
-    position:relative;
-    width: 100%;
-    height: 90%;
-    background: #120100;
-    object-fit: cover;
-    opacity: 0.7;
-    z-index: -1;
-    border-radius: 6px;
-
-  }
-  header nav .userInput .search img{
-margin-top: 2px;
-border-radius: 50%;
-margin-left: 8px;
-
-   }
-   header nav .userInput .search .card .container{
-    margin-left: 10px;
-    color: #fff;
-    display: inline-block;
-   
-   }
-   header nav .userInput .search .card .container h3{
-  
-    font-size:15px ;
-    line-height: 25px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 250px;
-   }
-   header nav .userInput .search .card .container p{
-   font-size: 12px;
-   color: darkgrey;
-   }
-   header nav .userInput .search .card .container span{
-    background: yellow;
-    color: #120100;
-    padding:0px 3px ;
-    margin: 0px 5px;
-    font-weight: 500;
-   }
    header .content{
     position: relative;
     color:antiquewhite;
@@ -384,3 +273,4 @@ column-gap: .2rem;
                 opacity: 1;
 
                }
+               

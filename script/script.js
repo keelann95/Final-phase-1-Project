@@ -30,7 +30,6 @@ function removeAttribute(element, attribute) {
 }
 
 const Cards = select(".cards");
-
 listen(document, "DOMContentLoaded", () => {
   fetchData(url);
 });
@@ -55,6 +54,7 @@ function fetchData(url) {
                     </div>
                 `;
         appendChild(card, Cards);
+
       });
     });
 }

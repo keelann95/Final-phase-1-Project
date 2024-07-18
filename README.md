@@ -43,11 +43,11 @@ To use this repo, follow these steps:
 
 3. Clone the repository by running the following command:
 
-       git clone https://github.com/keelann95/Movie-Website-Project
+       git clone https://github.com/keelann95/Final-phase-1-Project
 
 4. Change directory to the repo folder:
 
-        cd movie-website-project 
+        cd  Final-phase-1-Project
 
 5. Open it in your Code Editor of choice. If you use VS Code, run the command:
 
@@ -63,7 +63,7 @@ To use this repo, follow these steps:
 
 4. Remember to replace your username when cloning.
 
-        git clone  https://github.com/keelann95/Movie-Website-Project
+        git clone  https://github.com/keelann95/Final-phase-1-Project
 
 ## Running the application locally
 1. Open the integrated terminal in your code editor and run json-server:
